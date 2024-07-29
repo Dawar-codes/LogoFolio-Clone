@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Logofolio clone</title>
+    <style>
+        @layer utilities {
+            .overflow-gradient {
+
+                background: radial-gradient(circle at top,
+                        rgba(255, 69, 0, 0.6),
+                        transparent 50%);
+                z-index: -1;
+            }
+            .overflow-gradient2 {
+                background: radial-gradient(ellipse at bottom,
+                        rgba(255, 69, 0, 0.6),
+                        transparent 70%);
+                z-index: -1;
+            }
+            .overflow-gradient3 {
+                background: radial-gradient(circle at bottom,
+                        rgba(255, 69, 0, 0.5),
+                        transparent 70%);
+                z-index: -1;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-black text-white">
+
+    <div class="overflow-gradient h-5/6 w-full overflow-visible absolute top-0 right-0"></div>
+    <nav class="h-12 flex justify-between items-center p-10 backdrop-blur-sm sticky top-0 z-50">
+        <img src="../images/Logo.png" alt="">
+        <div>
+            <ul class="text-lg font-semibold hidden md:flex gap-5">
+                <li class="cursor-pointer hover:text-orange-600">Process</li>
+                <li class="cursor-pointer hover:text-orange-600">Work</li>
+                <li class="cursor-pointer hover:text-orange-600">Services</li>
+                <li class="cursor-pointer hover:text-orange-600">About</li>
+                <li class="cursor-pointer hover:text-orange-600">FAQS</li>
+            </ul>
+        </div>
+        <button class="border-orange-400 border-[1px] p-3 rounded-xl hover:text-orange-600">Book a call</button>
+    </nav>
+    <div class="flex justify-center">
+        <div class=" mt-28 flex flex-col gap-7 items-center md:items-start mx-5 md:mx-44">
+            <h1 class="text-5xl font-bold text-center md:text-left">Elevate your brand with a<br /> timeless
+                minimal logo.</h1>
+            <p class="text-gray-400 text-lg font-bold text-center">Design agency crafting minimal brand identities that
+                speaks volumes.</p>
+            <div class="flex flex-col w-full gap-4 md:flex md:flex-row mb-48">
+                <button
+                    class="border-orange-400 p-3 rounded-xl bg-orange-700 hover:text-orange-600 hover:bg-black hover:border-orange-400 hover:border-[1px]">View
+                    plans</button>
+                <button class="border-orange-400 border-[1px] p-3 rounded-xl hover:text-orange-600">Learn more</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section 2 -->
+
+    <div class="mx-5 mb-36 md:mb-48 md:mx-44">
+        <h1 class="text-3xl font-semibold text-center mb-5 md:text-4xl">We specialise in crafting minimal logos that
+            embody the essence of your brand.
+        </h1>
+        <p class="text-gray-400 text-center md:text-lg">First impressions matter. That's why our mission is to create
+            clean,
+            enduring designs that elevate your brand with simplicity and elegance. Captivate your audience with your
+            timeless presence.</p>
+    </div>
+
+    <!-- section 3 -->
+
+    <div class="flex flex-col items-center mx-5 mb-36 md:mb-48">
+        <h1 class="text-3xl font-semibold text-center mb-5 md:text-4xl">Our process.</h1>
+        <p class="text-gray-400 text-center md:text-lg">Reliable process for achieving distinctiveness.</p>
+
+        <div class="grid grid-cols-1 grid-rows-4 md:grid-cols-2 md:grid-rows-2 md:max-w-3xl md:gap-4 mt-10">
+
+            <div class="border-[0.5px] border-neutral-600 rounded-md p-6 bg-neutral-950 mt-5">
+                <p class="text-orange-600 text-sm mb-2">01</p>
+                <h2 class="font-bold">Discovery and Research.</h2>
+                <ul role="list" class="text-gray-400 text-sm marker:text-white list-disc ml-5 mt-5">
+                    <li class="mb-2">Understand the client's values and audience.</li>
+                    <li class="mb-2">Conduct market research.</li>
+                    <li class="mb-2">Identify key design elements.</li>
+                </ul>
+            </div>
+
+            <div class="border-[0.5px] border-neutral-600 rounded-md p-6 bg-neutral-950 mt-5">
+                <p class="text-orange-600 text-sm mb-2">02</p>
+                <h2 class="font-bold">Concept Development.</h2>
+                <ul role="list" class="text-gray-400 text-sm marker:text-white list-disc ml-5 mt-5">
+                    <li class="mb-2">Brainstorm and sketch initial logo concepts.</li>
+                    <li class="mb-2">Focus on simplicity.</li>
+                    <li class="mb-2">Prioritise ideas for further development.</li>
+                </ul>
+            </div>
+
+            <div class="border-[0.5px] border-neutral-600 rounded-md p-6 bg-neutral-950 mt-5">
+                <p class="text-orange-600 text-sm mb-2">03</p>
+                <h2 class="font-bold">Design and Refinement.</h2>
+                <ul role="list" class="text-gray-400 text-sm marker:text-white list-disc ml-5 mt-5">
+                    <li class="mb-2">Create digital versions of prioritised concepts.</li>
+                    <li class="mb-2">Refine the designs, ensuring clarity.</li>
+                    <li class="mb-2">Incorporate client feedback to fine-tuning.</li>
+                </ul>
+            </div>
+
+            <div class="border-[0.5px] border-neutral-600 rounded-md p-6 bg-neutral-950 mt-5">
+                <p class="text-orange-600 text-sm mb-2">04</p>
+                <h2 class="font-bold">Finalisation and Delivery.</h2>
+                <ul role="list" class="text-gray-400 text-sm marker:text-white list-disc ml-5 mt-5">
+                    <li class="mb-2">Prepare the final logo in various formats.</li>
+                    <li class="mb-2">Provide a comprehensive brand guide.</li>
+                    <li class="mb-2">Deliver the final assets and suppport.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 4 -->
+
+    <div class="flex flex-col items-center mx-5 mb-36 md:mb-48">
+        <h1 class="text-3xl font-semibold text-center mb-5 md:text-4xl">Our work.</h1>
+        <p class="text-gray-400 text-center md:text-lg">View our expertly crafted minimal logos, designed to convey
+            simplicity and elegance.</p>
+
+        <div class="grid grid-cols-1 grid-rows-4 md:grid-cols-2 md:grid-rows-2 md:max-w-3xl md:gap-4 mt-10">
+            <div class=" content-center h-72 border-[0.5px] border-neutral-600 rounded-md p-6 bg-neutral-950 mt-5">
+                <img class="h-28" src="https://framerusercontent.com/images/Jl8Q25KLQItBu2R6Ht4krXJgRw.png" alt="">
+            </div>
+
+            <div class=" content-center h-72 border-[0.5px] border-neutral-600 rounded-md p-6 bg-neutral-950 mt-5">
+                <img class="h-28" src="https://framerusercontent.com/images/Pnm0SYCeoeHklsqHupny9h17gU.png" alt="">
+            </div>
+
+            <div class=" content-center h-72 border-[0.5px] border-neutral-600 rounded-md p-6 bg-neutral-950 mt-5">
+                <img class="h-28" src="https://framerusercontent.com/images/EqhJmY5YdCHP2We4W5o1sOB2w.png" alt="">
+            </div>
+
+            <div class=" content-center h-72 border-[0.5px] border-neutral-600 rounded-md p-6 bg-neutral-950 mt-5">
+                <img class="h-28" src="https://framerusercontent.com/images/n4CgyCHfiUAHGPPF2EcFjv2G2Xg.png" alt="">
+            </div>
+
+            <div class=" content-center h-72 border-[0.5px] border-neutral-600 rounded-md p-6 bg-neutral-950 mt-5">
+                <img class="h-28" src="https://framerusercontent.com/images/zbW1LUhBr7BgqpE9pE9wfyyOvWQ.png" alt="">
+            </div>
+
+            <div class=" content-center h-72 border-[0.5px] border-neutral-600 rounded-md p-6 bg-neutral-950 mt-5">
+                <img class="h-28" src="https://framerusercontent.com/images/RLhh9rKsvWrc9VOilbq4tOFYZI.png" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- section 5 -->
+
+    <div class="flex flex-col items-center mx-5 mb-36 md:mb-48">
+        <h1 class="text-3xl font-semibold text-center mb-5 md:text-4xl">Our results.</h1>
+        <p class="text-gray-400 text-center md:text-lg">Hear what our clients have to say about out team and our
+            services.</p>
+
+        <div class="grid grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1 md:max-w-3xl md:gap-4 mt-10">
+
+            <div class="border-[0.5px] border-neutral-600 rounded-md p-6 bg-neutral-950 mt-5">
+                <div class="flex mb-7">
+                    <img class="h-4" src="../images/star_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                    <img class="h-4" src="../images/star_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                    <img class="h-4" src="../images/star_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                    <img class="h-4" src="../images/star_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                    <img class="h-4" src="../images/star_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                </div>
+                <h2 class="font-bold text-xl">The design exceeded our expectations in every way.</h2>
+                <div class="flex items-center gap-3 mt-7">
+                    <img class=" h-9 w-9 object-cover rounded-full"
+                        src="https://framerusercontent.com/images/1ApcT7kVDOZTELD8XFISmocdiA.jpg" alt="">
+                    <p class="font-semibold">Max <br /> Head of Design @ Fabrics</p>
+                </div>
+            </div>
+
+            <div class="border-[0.5px] border-neutral-600 rounded-md p-6 bg-neutral-950 mt-5">
+                <div class="flex mb-7">
+                    <img class="h-4" src="../images/star_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                    <img class="h-4" src="../images/star_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                    <img class="h-4" src="../images/star_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                    <img class="h-4" src="../images/star_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                    <img class="h-4" src="../images/star_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                </div>
+                <h2 class="font-bold text-xl">The design exceeded our expectations in every way.</h2>
+                <div class="flex items-center gap-3 mt-7">
+                    <img class=" h-9 w-9 object-cover rounded-full"
+                        src="https://framerusercontent.com/images/l19P4B4gW2LfHYRZg2KxmTSyj8.jpg?scale-down-to=512"
+                        alt="">
+                    <p class="font-semibold">Eddie <br /> Founder @ UrbanCore</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 6 -->
+
+    <div class="flex flex-col items-center mx-5 mb-36 md:mb-48">
+        <h1 class="text-3xl font-semibold text-center mb-5 md:text-4xl">Our services.</h1>
+        <p class="text-gray-400 text-center md:text-lg">Fixed-cost plans to avoid negotiations and start creating.</p>
+
+
+        <div class="grid grid-cols-1 grid-rows-3 md:grid-cols-3 md:grid-rows-1 md:max-w-5xl md:gap-4 mt-10">
+
+            <div class="border-[0.5px] border-neutral-600 rounded-md p-6 bg-neutral-950 mt-5">
+                <p class="text-orange-600 text-base mb-5">Lite</p>
+                <h2 class="font-semibold text-4xl mb-5">$1,495</h2>
+                <p class="text-gray-400 text-xl mb-5">
+                    Quickly receive a high-quality brand logo, representing your business vision.
+                </p>
+                <ul role="list" class="text-gray-400 text-sm marker:text-white list-disc ml-5 mt-5 mb-7">
+                    <li class="mb-2">Primary logo</li>
+                    <li class="mb-2">Brand colours</li>
+                    <li class="mb-2">72hr delivery</li>
+                    <li class="mb-2">Max 1 revision</li>
+                    <li class="mb-2">Figma files</li>
+                </ul>
+                <button class="border-orange-400 border-[1px] p-3 rounded-xl hover:text-orange-600 w-full md:w-32">Get
+                    Started</button>
+            </div>
+
+            <div
+                class=" bg-gradient-to-t from-orange-800 to-black to-50% border-[0.5px] border-neutral-600 rounded-md p-6 bg-neutral-950 relative mt-5">
+                <p class="text-orange-600 text-base mb-5">Standard</p>
+                <h2 class="font-semibold text-4xl mb-5">$2,225</h2>
+                <p class="text-gray-400 text-xl mb-5">
+                    Full scale brand identity promoting and connecting with your target audience.
+                </p>
+                <ul role="list" class="text-gray-400 text-sm marker:text-white list-disc ml-5 mt-5 mb-7">
+                    <li class="mb-2">Primary and secondary logos</li>
+                    <li class="mb-2">Full brand guidebook</li>
+                    <li class="mb-2">2 weeks delivery</li>
+                    <li class="mb-2">Max 3 revisions</li>
+                    <li class="mb-2">Figma files</li>
+                </ul>
+
+                <button
+                    class="border-orange-400 p-3 rounded-xl bg-orange-700 hover:text-orange-600 hover:bg-black w-full md:w-32">Get
+                    Started</button>
+            </div>
+
+            <div class="border-[0.5px] border-neutral-600 rounded-md p-6 bg-neutral-950 mt-5">
+                <p class="text-orange-600 text-base mb-5">Monthly</p>
+                <h2 class="font-semibold text-4xl mb-5">$2,495/m</h2>
+                <p class="text-gray-400 text-xl mb-5">
+                    Monthly design support, perfect for companies who require ongoing design work.
+                </p>
+                <ul role="list" class="text-gray-400 text-sm marker:text-white list-disc ml-5 mt-5 mb-7">
+                    <li class="mb-2">Unlimited banners</li>
+                    <li class="mb-2">Unlimited revisions</li>
+                    <li class="mb-2">Updates every 24 hours</li>
+                    <li class="mb-2">Max 1 revision</li>
+                    <li class="mb-2">Pause or cancel anytime</li>
+                </ul>
+                <button class="border-orange-400 border-[1px] p-3 rounded-xl hover:text-orange-600 w-full md:w-32">Get
+                    Started</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 7 -->
+
+    <div class="flex flex-col items-center mx-5 mb-36 md:mb-48">
+        <h1 class="text-3xl font-semibold text-center mb-5 md:text-4xl">Our services.</h1>
+        <p class="text-gray-400 text-center md:text-lg">Fixed-cost plans to avoid negotiations and start creating.</p>
+
+        <div class="flex flex-col md:flex-row gap-6 mt-10">
+            <div
+                class="relative grayscale cursor-pointer hover:filter-none transition duration-300 transform hover:scale-105">
+                <img class=" h-96 max-w-80 rounded-2xl object-cover"
+                    src="https://framerusercontent.com/images/f0xTwK2sFT7WC47RQXuNuTiQAQ.jpg?scale-down-to=512" alt="">
+                <div class="absolute inset-0 flex flex-col items-center justify-end mb-10">
+                    <h1 class="font-semibold text-xl">Sarah Farine</h1>
+                    <p class="text-gray-300">Founder of Logofolio</p>
+                </div>
+            </div>
+
+            <div
+                class="relative grayscale cursor-pointer hover:filter-none transition duration-300 transform hover:scale-105">
+                <img class=" h-96 max-w-80 rounded-2xl object-cover"
+                    src="https://framerusercontent.com/images/SxzTLiNEeuCPxt7HTFNnCyB5Vo.jpg" alt="">
+                <div class="absolute inset-0 flex flex-col items-center justify-end mb-10">
+                    <h1 class="font-semibold text-xl">Konrad Cheung</h1>
+                    <p class="text-gray-300">Head of Design</p>
+                </div>
+            </div>
+
+            <div
+                class="relative grayscale cursor-pointer hover:filter-none transition duration-300 transform hover:scale-105">
+                <img class=" h-96 max-w-80 rounded-2xl object-cover"
+                    src="https://framerusercontent.com/images/F8ur4MxzltB6kcNMHbY8uVKQbg.jpg" alt="">
+                <div class="absolute inset-0 flex flex-col items-center justify-end mb-10">
+                    <h1 class="font-semibold text-xl">Trevor Johnson</h1>
+                    <p class="text-gray-300">Lead Designer</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- section 8 -->
+
+    <div class="flex flex-col items-center cursor-pointer mx-5 mb-36 md:mb-48">
+        <h1 class="text-3xl font-semibold text-center mb-5 md:text-4xl">Our faqs.</h1>
+        <p class="text-gray-400 text-center md:text-lg">The most common questions we get asked.</p>
+
+        <div class="flex flex-col gap-8 p-4 border-[0.5px] border-neutral-600 rounded-2xl mt-10">
+            <div class="flex md:gap-56 gap-14 justify-between items-center">
+                <div class="font-normal text-lg md:text-xl text-neutral-200">What is the logo design process?</div>
+                <img class="h-5" src="../images/add_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.png" alt="">
+            </div>
+            <div class="flex md:gap-56 gap-14 justify-between items-center">
+                <div class="font-normal text-lg md:text-xl text-neutral-200">How much does a logo design cost?</div>
+                <img class="h-5" src="../images/add_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.png" alt="">
+            </div>
+            <div class="flex md:gap-56 gap-14 justify-between items-center">
+                <div class="font-normal text-lg md:text-xl text-neutral-200">How long does it take to design a logo?
+                </div>
+                <img class="h-5" src="../images/add_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.png" alt="">
+            </div>
+            <div class="flex md:gap-56 gap-14 justify-between items-center">
+                <div class="font-normal text-lg md:text-xl text-neutral-200">Do you offer custom logo designs or use
+                    templates?</div>
+                <img class="h-5" src="../images/add_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.png" alt="">
+            </div>
+            <div class="flex md:gap-56 gap-14 justify-between items-center">
+                <div class="font-normal text-lg md:text-xl text-neutral-200">Can you redesign my existing logo?</div>
+                <img class="h-5" src="../images/add_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- section 9 footer -->
+
+    <div class="md:flex md:justify-center">
+        <div class="flex flex-col gap-10 md:flex-row items-center justify-center md:justify-between md:h-64 md:gap-24 md:overflow-gradient2 md:max-w-5xl px-6 pb-10 overflow-gradient3">
+            <div class="flex flex-col items-center justify-center gap-10">
+                <div class="flex items-center justify-center gap-3">
+                    <img src="../images/Logo.png" alt="">
+                    <h1 class="text-xl font-medium">LogoFolio</h1>
+                </div>
+                <button class="border-orange-400 border-[1px] p-3 rounded-xl hover:text-orange-600 w-full md:w-32">Email Me</button>
+            </div>
+            <div class="grid grid-cols-3 grid-rows-1 text-xs md:text-base">
+                <div class="flex flex-col gap-4">
+                    <div>Process</div>
+                    <div>Work</div>
+                    <div>Services</div>
+                    <div>About</div>
+                    <div>FAQS</div>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <div>X(Twitter)</div>
+                    <div>LinkedIn</div>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <div>Use this Template</div>
+                    <div>Build with me</div>
+                    <div>Get more Templates</div>
+                    <div>Created by Muhammad Dawar</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
