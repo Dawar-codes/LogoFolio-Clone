@@ -2,7 +2,7 @@
   "name": "Tailwindcss-course",
   "version": "10.8.1",
   "scripts": {
-    "build": "tailwindcss  -i ./src/input.css -o ./dist/style.css --watch"
+    "build": "tailwindcss  -i ./src/input.css -o ./style.css --watch"
   },
 
   "devDependencies": {
